@@ -1,0 +1,93 @@
+.top {
+    height: 20px;
+    width: 100%;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 80px;
+}
+
+.logo-si {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: #000000;
+}
+
+.logo-left {
+    width: 300px;
+    float: left;
+}
+
+.logo a:hover { /*鼠标划过logo的a标签*/
+    color: #a52a2a;
+}
+
+.logo-mid {
+    width: 155px;
+    float: right;
+    margin-top: 30px;
+}
+
+.logo-right {
+    width: 50px;
+    float: right;
+    margin-top: 20px;
+}
+
+.nav {
+    height: 50px;
+    background-color: #cccccc;
+}
+
+.nav a {
+    float: left;
+    width: 120px;
+    text-align: center; /*文本居中*/
+    font-size: 17px;
+    line-height: 50px; /*字居中*/
+    color: #808080;
+}
+
+.nav a:hover { /*鼠标滑过nav的a标签*/
+    background-color: #696969;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.main {
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+}
+
+.main-left {
+    width: 200px;
+    height: 800px;
+    background-color: antiquewhite;
+    position: absolute; /*1. 为什么这个不需要加left：0 top:0 默认左对齐 因为中间没有设置宽度，;2. bootsrap和css会有冲突*/
+
+}
+
+.main-mid {
+    width: 300px;
+    height: 800px;
+
+}
+
+.main-right {
+    width: 200px;
+    height: 800px;
+    background-color: antiquewhite;
+    position: absolute;
+    right: 0;
+    top:0;
+
+}
+
+
